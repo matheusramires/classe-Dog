@@ -18,12 +18,22 @@ class Dog():
         print(str(self.nome).title() + 'rolando')
 
 #instancia um objeto
-dog1 = Dog('luna', 'preta', 'labrador')
+dog1 = Dog('nome_do_dog_1', 'cor_do_dog_1', 'raca_do_dog_1')
+dog2 = Dog('nome_do_dog_2', 'cor_do_dog_2', 'raca_do_dog_2')
+#quantos dogs forem necessarios
 
-#chama cada parametro
+#chama cada parametro para o dog 1
 dog1.latir()
 dog1.chorar()
 dog1.correr()
 dog1.sentar()
 dog1.deitar()
 dog1.rolar()
+
+#chama cada parametro para o dog 2
+dog2.latir()
+dog2.chorar()
+dog2.correr()
+dog2.sentar()
+dog2.deitar()
+dog2.rolar()
